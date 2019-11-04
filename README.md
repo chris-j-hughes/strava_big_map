@@ -1,5 +1,5 @@
 # strava_big_map
-This is a simple set of python scripts which download your data from Strava, and generate a polyline map usinf leaflet.js.
+This is a simple set of python scripts which download your data from Strava, and generate a polyline map using leaflet.js.
 You can find an example of the end result at: www.chrisjhughes.co.uk/apps/bigmap
 
 This is a very quick (hacky) implementation, so expect it not to work and be suprised. :-)
