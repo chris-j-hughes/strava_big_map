@@ -29,7 +29,7 @@ chris@data:/var/www/html/apps/maptest$ python strava_authenticate.py
 2. Enter your Client ID []: xxxxx
 3. Enter your Client Secret[: xxxxxxxxxxxxxxxxxxxxxxxxx
 4. Please visit:
-https://www.strava.com/oauth/authorize?client_id=13596&redirect_uri=http://localhost&response_type=code&scope=activity:read
+https://www.strava.com/oauth/authorize?client_id=xxxxx&redirect_uri=http://localhost&response_type=code&scope=activity:read
 Copy and Paste the code value from the from the URL that you are directed to: xxxxxxxxxxxxxxxxxxxxxxxxx
 5. Strava Cache Directory [stravaData]: 
 6. Success
