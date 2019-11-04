@@ -11,13 +11,13 @@ Run 'python strava_authenticate.py' and follow instructions:
 2. Enter your client_id as shown in the Strava app setting in the Strava website.
 3. Enter your client_secret as shown in the Strava app setting in the Strava website.
 4. Visit the URL as asked by the script in any browser. Strava will ask you to log in and authenticate the connection. Once you have authenticated it will redirect to a page which cannot load. In the URL of this new page is a code. Copy and paste this code into the terminal when asked.
-5. Specify a directory fot the strava data to be stored in. By default this is 'stravaData'
+5. Specify a directory for the strava data to be stored in. By default this is 'stravaData'
 
 Run 'python strava_download.py'. You must specify if you would like all of the data to be downloaded or just the last page, by specifying 'all' or 'lastpage'. Generally downloading all the data can take a while, so when just performing an update 'lastpage' is enough.
 
 Run 'python strava_createPolylines.py'. This will create a polylines.csv which can be used by index.php to render a map.
 
-
+Note. An example 'polylines.csv' is provided for testing and will be overwritten by the 'strava_createPolylines.py' script.
 
 
 # Example output:
