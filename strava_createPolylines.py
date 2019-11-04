@@ -1,3 +1,9 @@
+# strava_createPolylines.py
+# This python script is a simply loops through all of the cached Strava activities and extracts
+# polylines. These are then stored in a .csv file.
+#
+# Chris Hughes 01/11/2019
+
 import os
 import csv
 import json
