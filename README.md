@@ -2,6 +2,8 @@
 This is a simple set of python scripts which download your data from Strava, and generate a polyline map.
 You can find an example of the end result at: www.chrisjhughes.co.uk/apps/bigmap
 
+This is a very quick (hacky) implementation, so expect it not to work and be suprised. :-)
+
 # Quick Guide
 Place all files on a webserver (with php, python)
 
