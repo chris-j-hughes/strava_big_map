@@ -1,3 +1,10 @@
+# strava_download.py
+# This python script connects to the Strava API and downloads all of the users activity Data
+# and saves each activity as a .json file. The data is provided in pages therefore you can either 
+# request all activities or the last page of activities.
+#
+# Chris Hughes 01/11/2019
+
 import requests
 import os
 import sys
